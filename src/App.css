@@ -1,3 +1,22 @@
+body {
+  padding : 10px ;
+  font-size: 14px;
+}
+
+.container-fluid {
+            width: 100%;
+        }
+
+.custom {
+    width: 95px !important;
+    position: absolute;
+    right: 5%;
+    top: 50px;
+}
+
+.fc h2 {
+   font-size: 20px;
+}
 .App {
   text-align: center;
 }
@@ -28,7 +47,8 @@
 }
 
 div.custom-container {
-  background-color: #242424;
+  margin-top: 5%;
+  background-color: white;
 }
 
 svg .node circle {
@@ -40,17 +60,106 @@ svg .node circle {
 svg .node text {
   font-size: 11px;
   background-color: #444;
-  fill: #F4F4F4;
-  text-shadow: 0 1px 4px black;
+  fill: black;
+  /*text-shadow: 0 1px 4px black;*/
 }
 
 svg .node {
   cursor: pointer;
 }
 
-svg path.link {
+/*svg path.link {
   fill: none;
   stroke: #2593B8;
   stroke-width: 1.5px;
+}*/
+
+
+path.gray-node{
+  fill: none;
+  stroke: gray;
+  stroke-width: 1.5px;
 }
 
+.red-node text{
+  fill: black;
+  stroke-width: 0;
+}
+.blue-node text{
+  fill: black;
+  stroke-width: 0;
+}
+.green-node text{
+  fill: black;
+  stroke-width: 0;
+}
+.orange-node text{
+  fill: black;
+  stroke-width: 0;
+}
+.white-node text{
+  fill: black;
+  stroke-width: 0;
+}
+.black-node text{
+  fill: black;
+  stroke-width: 0;
+}
+.gray-node text{
+  fill: gray;
+  stroke-width: 0;
+}
+
+
+
+.big-node{
+  r:20
+}
+.red-node {
+  fill: red;
+   stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+.blue-node {
+  fill: blue;
+   stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+.green-node {
+  fill: green;
+   stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+.orange-node {
+  fill: orange;
+   stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+.white-node {
+  fill: white;
+   stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+.black-node {
+  fill: black;
+   stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+.gray-node {
+  fill: gray;
+   stroke: gray;
+  stroke-width: 1.5px;
+}
+
+
+
+
+
+.custom-container{
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  font-size: 11px;
+
+
+}
